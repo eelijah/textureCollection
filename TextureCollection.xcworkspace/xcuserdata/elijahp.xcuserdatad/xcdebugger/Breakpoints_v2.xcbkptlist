@@ -2,4 +2,54 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TextureCollection/DayScheduleTable/DayScheduleTable.swift"
+            timestampString = "547290306.007001"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "setupTunning()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TextureCollection.DayScheduleTable.(setupTunning in _189FBE33040516BA12A584313FAA9BC9)() -&gt; ()"
+                  moduleName = "TextureCollection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elijahp/Developer/TextureCollection/TextureCollection/DayScheduleTable/DayScheduleTable.swift"
+                  timestampString = "547287637.45947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in TextureCollection.DayScheduleTable.(setupTunning in _189FBE33040516BA12A584313FAA9BC9)() -&gt; ()"
+                  moduleName = "TextureCollection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elijahp/Developer/TextureCollection/TextureCollection/DayScheduleTable/DayScheduleTable.swift"
+                  timestampString = "547287637.4615051"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

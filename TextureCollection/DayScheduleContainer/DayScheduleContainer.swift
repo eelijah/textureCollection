@@ -26,18 +26,18 @@ final class DayScheduleContainer: ASViewController<ASPagerNode> {
     }
 
     private func setupTunning() {
+//        pagerNode.setTuningParameters(
+//            ASRangeTuningParameters(
+//                leadingBufferScreenfuls: 2,
+//                trailingBufferScreenfuls: 1
+//            ),
+//            for: .minimum,
+//            rangeType: .preload
+//        )
         pagerNode.setTuningParameters(
             ASRangeTuningParameters(
                 leadingBufferScreenfuls: 5,
-                trailingBufferScreenfuls: 2
-            ),
-            for: .lowMemory,
-            rangeType: .preload
-        )
-        pagerNode.setTuningParameters(
-            ASRangeTuningParameters(
-                leadingBufferScreenfuls: 2,
-                trailingBufferScreenfuls: 0.5
+                trailingBufferScreenfuls: 1
             ),
             for: .full,
             rangeType: .display
@@ -65,6 +65,10 @@ extension DayScheduleContainer: ASPagerDataSource {
     func numberOfPages(in pagerNode: ASPagerNode) -> Int {
         return dataModel.count
     }
+
+//    func pagerNode(_ pagerNode: ASPagerNode, nodeAt index: Int) -> ASCellNode {
+//        return DayScheduleContainerCell(data: dataModel[index])
+//    }
 
     func pagerNode(_ pagerNode: ASPagerNode, nodeBlockAt index: Int) -> ASCellNodeBlock {
         let data = dataModel[index]

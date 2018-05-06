@@ -21,24 +21,22 @@ final class DayScheduleTable: ASTableNode {
     }
 
     private func setupTunning() {
-        DispatchQueue.main.async { [weak self] in
-            self?.setTuningParameters(
-                ASRangeTuningParameters(
-                    leadingBufferScreenfuls: 7,
-                    trailingBufferScreenfuls: 0.5
-                ),
-                for: .minimum,
-                rangeType: .preload
-            )
-            self?.setTuningParameters(
-                ASRangeTuningParameters(
-                    leadingBufferScreenfuls: 5,
-                    trailingBufferScreenfuls: 0.5
-                ),
-                for: .full,
-                rangeType: .display
-            )
-        }
+        setTuningParameters(
+            ASRangeTuningParameters(
+                leadingBufferScreenfuls: 2,
+                trailingBufferScreenfuls: 0.5
+            ),
+            for: .lowMemory,
+            rangeType: .preload
+        )
+        setTuningParameters(
+            ASRangeTuningParameters(
+                leadingBufferScreenfuls: 1,
+                trailingBufferScreenfuls: 0.5
+            ),
+            for: .full,
+            rangeType: .display
+        )
     }
 
 }
