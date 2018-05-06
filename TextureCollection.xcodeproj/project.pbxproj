@@ -7,21 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C83DA13209B7B3700F29A15 /* DayScheduleContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83DA12209B7B3700F29A15 /* DayScheduleContainerCell.swift */; };
+		0C83DA15209B7ECE00F29A15 /* DayScheduleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83DA14209B7ECE00F29A15 /* DayScheduleTableCell.swift */; };
+		0CA24DA9209DACD900D98A83 /* DayGroupCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA24DA8209DACD900D98A83 /* DayGroupCollection.swift */; };
+		0CA24DAB209DACEB00D98A83 /* DayGroupCollectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA24DAA209DACEB00D98A83 /* DayGroupCollectionNode.swift */; };
+		0CA24DAD209DAD0D00D98A83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA24DAC209DAD0D00D98A83 /* Extensions.swift */; };
+		0CA24DAF209E1C5C00D98A83 /* DayGroupCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA24DAE209E1C5C00D98A83 /* DayGroupCollectionFlowLayout.swift */; };
 		0CA95E71209A0739005EFBB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA95E70209A0739005EFBB3 /* AppDelegate.swift */; };
-		0CA95E73209A0739005EFBB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA95E72209A0739005EFBB3 /* ViewController.swift */; };
-		0CA95E76209A0739005EFBB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA95E74209A0739005EFBB3 /* Main.storyboard */; };
 		0CA95E78209A073F005EFBB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA95E77209A073F005EFBB3 /* Assets.xcassets */; };
 		0CA95E7B209A073F005EFBB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA95E79209A073F005EFBB3 /* LaunchScreen.storyboard */; };
+		0CA95E85209A0933005EFBB3 /* DayScheduleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA95E84209A0933005EFBB3 /* DayScheduleContainer.swift */; };
+		0CA95E88209A0AEC005EFBB3 /* DayScheduleTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA95E87209A0AEC005EFBB3 /* DayScheduleTable.swift */; };
+		46C2E4A47834DC493AB16D25 /* Pods_TextureCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAF578BDC0FA3635FA336E2 /* Pods_TextureCollection.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C83DA12209B7B3700F29A15 /* DayScheduleContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayScheduleContainerCell.swift; sourceTree = "<group>"; };
+		0C83DA14209B7ECE00F29A15 /* DayScheduleTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayScheduleTableCell.swift; sourceTree = "<group>"; };
+		0CA24DA8209DACD900D98A83 /* DayGroupCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayGroupCollection.swift; sourceTree = "<group>"; };
+		0CA24DAA209DACEB00D98A83 /* DayGroupCollectionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayGroupCollectionNode.swift; sourceTree = "<group>"; };
+		0CA24DAC209DAD0D00D98A83 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0CA24DAE209E1C5C00D98A83 /* DayGroupCollectionFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayGroupCollectionFlowLayout.swift; sourceTree = "<group>"; };
 		0CA95E6D209A0739005EFBB3 /* TextureCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA95E70209A0739005EFBB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CA95E72209A0739005EFBB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0CA95E75209A0739005EFBB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CA95E77209A073F005EFBB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA95E7A209A073F005EFBB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA95E7C209A073F005EFBB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA95E82209A0832005EFBB3 /* TextureCollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextureCollection-Bridging-Header.h"; sourceTree = "<group>"; };
+		0CA95E84209A0933005EFBB3 /* DayScheduleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayScheduleContainer.swift; sourceTree = "<group>"; };
+		0CA95E87209A0AEC005EFBB3 /* DayScheduleTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayScheduleTable.swift; sourceTree = "<group>"; };
+		12DDBDAA64034D0236EA9DC1 /* Pods-TextureCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureCollection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextureCollection/Pods-TextureCollection.debug.xcconfig"; sourceTree = "<group>"; };
+		2DAF578BDC0FA3635FA336E2 /* Pods_TextureCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB86B47D54E0893E95280375 /* Pods-TextureCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextureCollection/Pods-TextureCollection.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46C2E4A47834DC493AB16D25 /* Pods_TextureCollection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CA24DA7209DAC8F00D98A83 /* DayGroupCollection */ = {
+			isa = PBXGroup;
+			children = (
+				0CA24DA8209DACD900D98A83 /* DayGroupCollection.swift */,
+				0CA24DAA209DACEB00D98A83 /* DayGroupCollectionNode.swift */,
+				0CA24DAE209E1C5C00D98A83 /* DayGroupCollectionFlowLayout.swift */,
+			);
+			path = DayGroupCollection;
+			sourceTree = "<group>";
+		};
 		0CA95E64209A0739005EFBB3 = {
 			isa = PBXGroup;
 			children = (
 				0CA95E6F209A0739005EFBB3 /* TextureCollection */,
 				0CA95E6E209A0739005EFBB3 /* Products */,
+				21BE651330CA58CE7B2CC295 /* Pods */,
+				85904F894FDC15A0F587FBB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,52 @@
 		0CA95E6F209A0739005EFBB3 /* TextureCollection */ = {
 			isa = PBXGroup;
 			children = (
+				0CA24DA7209DAC8F00D98A83 /* DayGroupCollection */,
+				0CA95E86209A0AD4005EFBB3 /* DayScheduleTable */,
+				0CA95E83209A0917005EFBB3 /* DayScheduleContainer */,
 				0CA95E70209A0739005EFBB3 /* AppDelegate.swift */,
-				0CA95E72209A0739005EFBB3 /* ViewController.swift */,
-				0CA95E74209A0739005EFBB3 /* Main.storyboard */,
+				0CA95E82209A0832005EFBB3 /* TextureCollection-Bridging-Header.h */,
 				0CA95E77209A073F005EFBB3 /* Assets.xcassets */,
 				0CA95E79209A073F005EFBB3 /* LaunchScreen.storyboard */,
 				0CA95E7C209A073F005EFBB3 /* Info.plist */,
+				0CA24DAC209DAD0D00D98A83 /* Extensions.swift */,
 			);
 			path = TextureCollection;
+			sourceTree = "<group>";
+		};
+		0CA95E83209A0917005EFBB3 /* DayScheduleContainer */ = {
+			isa = PBXGroup;
+			children = (
+				0CA95E84209A0933005EFBB3 /* DayScheduleContainer.swift */,
+				0C83DA12209B7B3700F29A15 /* DayScheduleContainerCell.swift */,
+			);
+			path = DayScheduleContainer;
+			sourceTree = "<group>";
+		};
+		0CA95E86209A0AD4005EFBB3 /* DayScheduleTable */ = {
+			isa = PBXGroup;
+			children = (
+				0CA95E87209A0AEC005EFBB3 /* DayScheduleTable.swift */,
+				0C83DA14209B7ECE00F29A15 /* DayScheduleTableCell.swift */,
+			);
+			path = DayScheduleTable;
+			sourceTree = "<group>";
+		};
+		21BE651330CA58CE7B2CC295 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12DDBDAA64034D0236EA9DC1 /* Pods-TextureCollection.debug.xcconfig */,
+				FB86B47D54E0893E95280375 /* Pods-TextureCollection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85904F894FDC15A0F587FBB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DAF578BDC0FA3635FA336E2 /* Pods_TextureCollection.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CA95E7F209A073F005EFBB3 /* Build configuration list for PBXNativeTarget "TextureCollection" */;
 			buildPhases = (
+				197CDC59471ECF67CC83748E /* [CP] Check Pods Manifest.lock */,
 				0CA95E69209A0739005EFBB3 /* Sources */,
 				0CA95E6A209A0739005EFBB3 /* Frameworks */,
 				0CA95E6B209A0739005EFBB3 /* Resources */,
+				6080F51C83238696E410E6CC /* [CP] Embed Pods Frameworks */,
+				25CC6D63B406596CD9BB9AAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -92,7 +163,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = "Medisafe Inc.";
+				ORGANIZATIONNAME = "Eli Ponkratenko";
 				TargetAttributes = {
 					0CA95E6C209A0739005EFBB3 = {
 						CreatedOnToolsVersion = 9.3;
@@ -124,33 +195,95 @@
 			files = (
 				0CA95E7B209A073F005EFBB3 /* LaunchScreen.storyboard in Resources */,
 				0CA95E78209A073F005EFBB3 /* Assets.xcassets in Resources */,
-				0CA95E76209A0739005EFBB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		197CDC59471ECF67CC83748E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextureCollection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25CC6D63B406596CD9BB9AAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextureCollection/Pods-TextureCollection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6080F51C83238696E410E6CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TextureCollection/Pods-TextureCollection-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-14/iOS/RevealServer.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextureCollection/Pods-TextureCollection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0CA95E69209A0739005EFBB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA95E73209A0739005EFBB3 /* ViewController.swift in Sources */,
+				0CA24DAF209E1C5C00D98A83 /* DayGroupCollectionFlowLayout.swift in Sources */,
 				0CA95E71209A0739005EFBB3 /* AppDelegate.swift in Sources */,
+				0CA24DAB209DACEB00D98A83 /* DayGroupCollectionNode.swift in Sources */,
+				0C83DA13209B7B3700F29A15 /* DayScheduleContainerCell.swift in Sources */,
+				0CA24DAD209DAD0D00D98A83 /* Extensions.swift in Sources */,
+				0CA24DA9209DACD900D98A83 /* DayGroupCollection.swift in Sources */,
+				0CA95E85209A0933005EFBB3 /* DayScheduleContainer.swift in Sources */,
+				0C83DA15209B7ECE00F29A15 /* DayScheduleTableCell.swift in Sources */,
+				0CA95E88209A0AEC005EFBB3 /* DayScheduleTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0CA95E74209A0739005EFBB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0CA95E75209A0739005EFBB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0CA95E79209A073F005EFBB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,6 +411,7 @@
 		};
 		0CA95E80209A073F005EFBB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DDBDAA64034D0236EA9DC1 /* Pods-TextureCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,8 +421,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.medisafe.TextureCollection;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ponkratenko.TextureCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TextureCollection/TextureCollection-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,6 +431,7 @@
 		};
 		0CA95E81209A073F005EFBB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB86B47D54E0893E95280375 /* Pods-TextureCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,8 +441,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.medisafe.TextureCollection;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ponkratenko.TextureCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TextureCollection/TextureCollection-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
